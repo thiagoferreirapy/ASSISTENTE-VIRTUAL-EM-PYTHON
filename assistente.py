@@ -45,7 +45,7 @@ def ouvir_mic(): #FUNÇÃO PARA OUVIR OS COMANDOS
         
 def fala_assistente(mensagem): #Função de fala da assistente
     caminho = random.randint(1,2000)
-    audio = f'G:\\programas\\programas vscode\\Programas com som\\LARA_assistente\\Som\\audio{caminho}.mp3' #IMPORTANTE PASSAR O CAMINHO DO ARQUIVO DESSA FORMA E COM BASTANTE PRECISÃO
+    audio = f'audio{caminho}.mp3' #IMPORTANTE PASSAR O CAMINHO DO ARQUIVO DESSA FORMA E COM BASTANTE PRECISÃO
     lang = 'pt-br'
     mensagem = str(mensagem)
     sp = gTTS(
